@@ -1,0 +1,232 @@
+@import url(font.css);
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Rubik-Regular;
+}
+
+.container{
+    max-width: 1110px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+body{
+    background: #E5E5E5;
+}
+.card-link{
+    border-radius: 30px;
+    padding: 7px 65px;
+    color: white;
+    background: #3FA5D5;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+}
+.header{
+    height: 500px;
+    background: url(../images/bg.png) white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: flex-start;
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 0;
+    padding-left: 62px;
+}
+.header h1{
+    max-width: 332px;
+    font-family: Rubik-Bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #464748;
+    position: relative;
+    z-index: 1;
+}
+.header p{
+    max-width: 314px;
+    font-family: Rubik-Regular;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #696868;
+}
+.header h1::before{
+    content: '';
+    width: 99.6px;
+    height: 52.28px;
+    display: block;
+    background: url(https://i.ytimg.com/vi/NKk6rGDpq6Y/sddefault.jpg);
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    top: 25%;
+    left: 0;
+}
+.card{
+    display: flex;
+    background: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 255px;
+    padding: 32px 18px 19px 18px;
+    border-radius: 15px;
+}
+.card h2{
+    font-size: 20px;
+    color: #3FA5D5;
+    font-family: Rubik-Bold;
+    margin-bottom: 59px;
+    text-align: center;
+}
+.card i{
+    font-size: 100px;
+    color:#3FA5D5;
+    margin-bottom: 70px;
+}
+
+#third-card{
+    font-size: 16px;
+}
+
+.cards-section{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.reviews-title{
+    margin-bottom: 22px;
+    font-family: Rubik-Bold;
+    font-size: 20px;
+    color: #686868;
+}
+.left-reviews p{
+    width: 825px;
+    font-family: Rubik-Regular;
+    color: #545454;
+    padding: 15px;
+    background: white;
+    border-radius:8px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.left-reviews p:last-child{
+    margin-bottom: 0;
+}
+.left-reviews{
+    display: flex;
+    flex-direction: column;
+}
+.review-cards{
+    display: flex;
+    background: white;
+    align-items: center;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 255px;
+    gap: 15px;
+}
+.reviews-card__txt{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.reviews-card__txt h3{
+    font-size: 17px;
+    color: #323232;
+}
+.reviews-card__txt p{
+    font-family: Rubik-Light;
+    font-size: 14px;
+    line-height: 13px;
+}
+
+.review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.review-cards:last-child{
+    margin-bottom: 0px;
+}
+footer{
+    margin-top: 44px;
+    padding: 40px 0;
+    background: #3FA5D5;
+}
+.logo{
+    font-family: Rubik-Bold;
+    font-size: 50px;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+.footer-links a:nth-child(1){
+    font-family: Rubik-Bold;
+    font-size: 18px;
+    color:white;
+} 
+.footer-links a:nth-child(2){
+    font-family: Rubik-Regular;
+    color:white;
+}
+.aside-list__link{
+    color:#939393;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    transition: 500ms;
+}
+
+aside{
+    display: flex;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    padding: 30px 0 30px 15px;
+    flex-direction: column;
+    background: white;
+    overflow: hidden;
+    width: 90px;
+    transition: 800ms;
+}
+aside:hover{
+    width: 234px;
+}
+.aside li{
+    margin-bottom: 55px;
+}
+.aside i {
+    font-size: 40px;
+}
+.aside-list{
+    padding-left: 15px;
+}
+.aside-list li:nth-child(4) i{
+    padding-left: 5px;
+}
+.aside-list__link:hover{
+    color: #2A86B1;
+}
